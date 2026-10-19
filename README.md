@@ -47,5 +47,8 @@ A console-based Java messaging application. Users log in, choose how many messag
 - Message: `Hi Mike, can you join us for dinner tonight?`
 - Expected hash: `00:0:HITONIGHT`
 
+## References
 
+- Oracle. Java Platform, Standard Edition Documentation.
+- JUnit 4 Documentation. https://junit.org/junit4/
 
