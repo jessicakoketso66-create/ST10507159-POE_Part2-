@@ -29,3 +29,15 @@ A console-based Java messaging application. Users log in, choose how many messag
   - **Store**: `Message successfully stored.` (saved to `messages.json`)
 - Full details of each sent message are shown in this order: Message ID, Message Hash, Recipient, Message
 - The total number of messages sent is shown when the user quits
+
+## Methods in 'message.java'
+-'checkMessageID()' checks the message ID is no more than ten characters
+-'checkRecipientsCell()' it checks the recipient number has an international code and valid length
+-'checkMessageLength()' checks the messages if its 250 characters or fewer
+-'checkMessageHash()' creates and returns the message hash
+-'sentMessage()' lets the user send, disregard or store the message
+-'printMessage()' returns all messages sent while the program is running
+-'returnTotalMessage()' returns the total number of messages sent
+-'storeMessage()' stores the message in a JSON file
+
+## How to run 
