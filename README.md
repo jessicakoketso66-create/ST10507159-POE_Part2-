@@ -40,4 +40,12 @@ A console-based Java messaging application. Users log in, choose how many messag
 -'returnTotalMessage()' returns the total number of messages sent
 -'storeMessage()' stores the message in a JSON file
 
-## How to run 
+## Test data Used
+
+**Test Message 1**
+- Recipient: `+27718693002`
+- Message: `Hi Mike, can you join us for dinner tonight?`
+- Expected hash: `00:0:HITONIGHT`
+
+
+
